@@ -198,7 +198,7 @@ echo "            ))" >> .emacs
 
 # download rottenpotatoes
 cd ~/Documents
-git clone git://github.com/saasbook/rottenpotatoes
+git clone https://github.com/saasbook/rottenpotatoes.git
 cd rottenpotatoes
 git checkout -b ch_ruby_intro origin/ch_ruby_intro
 bundle install
